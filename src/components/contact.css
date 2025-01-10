@@ -1,0 +1,60 @@
+/* Contact Section */
+.contact {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Contact Section Title */
+.contact h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Contact Item */
+.contact-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Contact Item Title */
+.contact-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+/* Contact Item Paragraph */
+.contact-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Animations */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start from left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* End at normal position */
+  }
+}
+.email-link {
+  color: #2563eb; /* Blue color for the link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #1e3a8a; /* Darker blue on hover */
+  text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+/* Experience Section */
+.experience {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  animation: slideIn 1s ease-out; /* Add animation */
+min-height: 90vh;
+}
+
+/* Experience Section Title */
+.experience h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Experience Item */
+.experience-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Experience Item Title */
+.experience-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+/* Experience Item Paragraph */
+.experience-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Animations */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start from left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* End at normal position */
+  }
+}

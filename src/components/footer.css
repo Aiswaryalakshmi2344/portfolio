@@ -1,0 +1,46 @@
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    bottom: -90px;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Social Links Styling */
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Highlight color for social links */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .footer-content {
+      font-size: 0.9rem;
+    }
+  
+    .social-links a {
+      margin: 0 10px;
+      font-size: 1rem;
+    }
+  }
+  

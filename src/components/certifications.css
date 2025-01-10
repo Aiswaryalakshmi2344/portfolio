@@ -1,0 +1,66 @@
+/* Certifications Section */
+.certifications {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    animation: slideIn 1s ease-out; /* Add animation */
+    min-height: 90vh;
+
+  }
+  
+  /* Certifications Section Title */
+  .certifications h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-out; /* Add animation */
+  }
+  
+  /* Certifications List */
+  .certifications ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Certification Item */
+  .certifications li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    animation: slideIn 1s ease-out; /* Add animation */
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px); /* Start from left */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at normal position */
+    }
+  }
+  /* View Certificate Button */
+.view-certificate-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.view-certificate-btn:hover {
+  background-color: #45a049;
+}
+
+  

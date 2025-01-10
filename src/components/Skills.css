@@ -1,0 +1,62 @@
+/* General Styling for the Skills Section */
+.skills-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  animation: slideIn 1s ease-out; /* Add animation */
+min-height: 90vh;
+}
+
+/* Skills Section Title */
+.skills-content h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Skill Categories */
+.skills-category {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Skill Category Title */
+.skills-category h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #333;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Skill List */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  animation: slideIn 1s ease-out; /* Add animation */
+}
+
+/* Animations */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start from left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* End at normal position */
+  }
+}

@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient background */
+  color: #333; /* Darker text color for better readability */
+  box-sizing: border-box;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  min-height: 90vh;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Profile Photo */
+.home-profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 5px solid rgba(41, 27, 70, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  animation: scaleUp 1.5s ease-in-out, fadeInUp 2s ease-in-out;
+}
+
+.home-profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Content Section */
+.content {
+  animation: fadeInContent 2s ease-in-out, slideInFromLeft 2s ease-out;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient for heading */
+  color: transparent;
+  background-clip: text;
+  font-style: italic;
+  animation: bounceIn 1.5s ease-in-out;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #141111; /* Slightly lighter color for better readability */
+  line-height: 1.8;
+  font-style: italic;
+  animation: fadeInText 2s ease-in-out;
+}
+
+/* Download Button */
+.download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, #2563eb, #1e3a8a);
+  border: none;
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideInFromBottom 1s ease-out, pulseButton 2s infinite ease-in-out;
+  font-style: italic;
+}
+
+.download-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+}
+
+/* Responsive Styles */
+
+/* For tablets and medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .home-profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .download-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/* For small devices and mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .home-container {
+    padding: 30px 15px;
+  }
+
+  .home-profile-photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .download-button {
+    font-size: 0.85rem;
+    padding: 8px 18px;
+  }
+}
+
+/* For larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+
+  .download-button {
+    font-size: 1.1rem;
+    padding: 14px 28px;
+  }
+}

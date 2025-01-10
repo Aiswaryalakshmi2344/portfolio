@@ -1,0 +1,37 @@
+/* Education Section */
+.education {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  min-height: 90vh;
+
+}
+
+/* Education Section Title */
+.education h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Education Card */
+.education-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Education Card Header */
+.education-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+/* Education Card Text */
+.education-card p {
+  font-size: 1rem;
+  color: #555;
+}
